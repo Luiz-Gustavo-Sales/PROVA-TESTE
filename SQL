@@ -1,0 +1,35 @@
+//==========CRIANDO BANCO================
+
+CREATE DATABASE concecionaria
+
+
+//=========criando table caminhos================
+
+CREATE TABLE  caminhoes(
+  Id int NOT NULL AUTO_INCREMENT, 
+  modelo varchar(255) NOT NULL, 
+  marca varchar(255)NOT NULL, 
+  ano varchar(50), 
+  valor varchar(255), 
+  PRIMARY KEY (Id) 
+);
+
+//================criando tabela  carros================
+CREATE TABLE  carros(
+  Id int NOT NULL AUTO_INCREMENT, 
+  modelo varchar(255) NOT NULL, 
+  marca varchar(255)NOT NULL, 
+  ano varchar(50), 
+  valor varchar(255), 
+  PRIMARY KEY (Id) 
+);
+
+//==============criando tabela motos====================
+CREATE TABLE  motos(
+  Id int NOT NULL AUTO_INCREMENT, 
+  modelo varchar(255) NOT NULL, 
+  marca varchar(255)NOT NULL, 
+  ano varchar(50), 
+  valor varchar(255), 
+  PRIMARY KEY (Id) 
+);
