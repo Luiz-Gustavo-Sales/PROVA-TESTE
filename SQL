@@ -14,6 +14,14 @@ CREATE TABLE  caminhoes(
   PRIMARY KEY (Id) 
 );
 
+INSERT INTO  caminhoes (ano,marca,modelo,valor) 
+VALUES ('ano1','marca1','modelo1','2,50');
+
+INSERT INTO  caminhoes (ano,marca,modelo,valor) 
+VALUES ('ano2','marca2','modelo2','1,50');
+
+===========================================
+
 //================criando tabela  carros================
 CREATE TABLE  carros(
   Id int NOT NULL AUTO_INCREMENT, 
@@ -24,6 +32,13 @@ CREATE TABLE  carros(
   PRIMARY KEY (Id) 
 );
 
+INSERT INTO  carros (ano,marca,modelo,valor) 
+VALUES ('anoCarro','marcaCarro','modeloCarro','1,00');
+INSERT INTO  carros (ano,marca,modelo,valor) 
+VALUES ('anoCarro','marcaCarro','modeloCarro','2,50');
+===========================================
+
+
 //==============criando tabela motos====================
 CREATE TABLE  motos(
   Id int NOT NULL AUTO_INCREMENT, 
@@ -33,3 +48,12 @@ CREATE TABLE  motos(
   valor varchar(255), 
   PRIMARY KEY (Id) 
 );
+
+INSERT INTO  motos (ano,marca,modelo,valor) 
+VALUES ('anoMoto','marcaMoto','modeloMoto','1,00');
+INSERT INTO  motos (ano,marca,modelo,valor) 
+VALUES ('anoMoto','marcaMoto','modeloMoto','1,00');
+INSERT INTO  motos (ano,marca,modelo,valor) 
+VALUES ('anoMoto','marcaMoto','modeloMoto','1,00');
+
+===========================================
